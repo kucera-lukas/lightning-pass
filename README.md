@@ -2,7 +2,7 @@
 
 ---
 
-Lightning Pass is using Python, PyQt and MySQL.
+Lightning Pass is using Python, PyQt and MySQL
 
 ---
 
@@ -94,4 +94,4 @@ pre-commit install
 
 ## License
 
-Developed under the [MIT](https://github.com/kucera-lukas/lightning-pass/blob/master/LICENSE) license.
+Developed under the [MIT](https://github.com/kucera-lukas/lightning-pass/blob/master/LICENSE) license

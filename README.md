@@ -21,7 +21,7 @@ git clone git@github.com:kucera-lukas/lightning-pass.git
 5. Install dependencies
 
 ```sh
-poetry install --no-dev
+poetry install
 ```
 
 ### Create the `.env` file

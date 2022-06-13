@@ -11,7 +11,8 @@ Lightning Pass is using Python, PyQt and MySQL
 ### Install instructions
 
 1. Install Python https://www.python.org/
-2. Install MySQL https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/
+2. Install Poetry https://python-poetry.org/docs/
+3. Install MySQL https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/
 4. Clone this repository
 
 ```sh
@@ -80,7 +81,7 @@ Both light and dark mode stylesheets are located in the [static](https://github.
 *   PyQT - QSS files and stylesheets, QtDesigner, QtSlots - mouse tracking, QStackedWidget, QInputDialog and many more...
 *   Cryptography - hashing and symmetric encryption by deriving a key from "master password"
 *   SQL/MySQL - table relationships, unique keys, proper way to handle SQL injection
-*   VCS and Gitlab - pre-commit hooks, continuous integration, git rollbacks,...
+*   VCS and GitLab - pre-commit hooks, continuous integration, git rollbacks,...
 
 ## Preview
 

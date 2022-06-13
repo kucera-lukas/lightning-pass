@@ -79,9 +79,9 @@ Both light and dark mode stylesheets are located in the [static](https://github.
 ## Preview
 
 * [This is how loading looks like!](https://github.com/kucera-lukas/lightning-pass/blob/master/docs/loading.gif)
-* [This is how password generation looks like!](https://github.com/kucera-lukas/lightning-pass/blob/chore/cleanup/docs/password_generator.gif)
-* [This is how login looks like!](https://github.com/kucera-lukas/lightning-pass/blob/chore/cleanup/docs/login.gif)
-* [This is how the vault looks like!](https://github.com/kucera-lukas/lightning-pass/blob/chore/cleanup/docs/vault.gif)
+* [This is how password generation looks like!](https://github.com/kucera-lukas/lightning-pass/blob/master/docs/password_generator.gif)
+* [This is how login looks like!](https://github.com/kucera-lukas/lightning-pass/blob/master/docs/login.gif)
+* [This is how the vault looks like!](https://github.com/kucera-lukas/lightning-pass/blob/master/docs/vault.gif)
 
 ## Contributing
 

@@ -1,19 +1,50 @@
 # Lightning Pass
 
-Lightning Pass is a GUI application build with PyQt. Password generation, account management and password manager are the main features of this project.
+---
 
-## Preview
+Lightning Pass is using Python, PyQt and MySQL.
 
-* [This is how loading looks like!](https://gitlab.com/Lkms19/lightning-pass/-/blob/master/docs/loading.gif/)
-* [This is how password generation looks like!](https://gitlab.com/Lkms19/lightning-pass/-/blob/master/docs/password_generator.gif)
-* [This is how login looks like!](https://gitlab.com/Lkms19/lightning-pass/-/blob/master/docs/login.gif)
-* [This is how the vault looks like!](https://gitlab.com/Lkms19/lightning-pass/-/blob/master/docs/vault.gif)
+---
 
-## Tech/framework used
+## Installation
 
-*   Python 3.9
-*   PyQt5
-*   MySQL
+### Install instructions
+
+1. Install Python https://www.python.org/
+2. Install MySQL https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/
+4. Clone this repository
+
+```sh
+git clone git@github.com:kucera-lukas/lightning-pass.git
+```
+
+5. Install dependencies
+
+```sh
+poetry install --no-dev
+```
+
+### Create the `.env` file
+
+Create a `.env` file and copy the contents of `.env.example` file into the `.env` file
+
+```sh
+cp .env.example .env
+```
+
+### Initialize database
+
+```sh
+mysql -u user -e "CREATE DATABASE lightning_pass";
+```
+
+## Development
+
+### GUI window
+
+```sh
+python ligtning_pass
+```
 
 ## Features
 
@@ -30,17 +61,19 @@ Lightning Pass is a GUI application build with PyQt. Password generation, accoun
 *   SQL/MySQL - table relationships, unique keys, proper way to handle SQL injection
 *   VCS and Gitlab - pre-commit hooks, continuous integration, git rollbacks,...
 
-## Installation
+## Preview
 
-*   Clone the repository
-*   Run `poetry install --no-dev` in the cloned folder. [Poetry](https://python-poetry.org/) for more information.
-*   Add your credentiuals into a `.env` file
+* [This is how loading looks like!](https://github.com/kucera-lukas/lightning-pass/blob/master/docs/loading.gif)
+* [This is how password generation looks like!](https://github.com/kucera-lukas/lightning-pass/blob/chore/cleanup/docs/password_generator.gif)
+* [This is how login looks like!](https://github.com/kucera-lukas/lightning-pass/blob/chore/cleanup/docs/login.gif)
+* [This is how the vault looks like!](https://github.com/kucera-lukas/lightning-pass/blob/chore/cleanup/docs/vault.gif)
 
-## How to use?
+## Contributing
 
-*   Head over to the location of the repo in your machine.
-*   Run the lightning_pass module or the python file in the bin folder.
+```sh
+pre-commit install
+```
 
 ## License
 
-Developed under the [MIT](https://gitlab.com/Lkms19/lightning-pass/-/blob/master/LICENSE) license.
+Developed under the [MIT](https://github.com/kucera-lukas/lightning-pass/blob/master/LICENSE) license.

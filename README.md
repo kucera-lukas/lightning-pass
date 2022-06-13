@@ -46,6 +46,21 @@ mysql -u user -e "CREATE DATABASE lightning_pass";
 python ligtning_pass
 ```
 
+### Qt Creator
+
+```sh
+qtcreator lightning_pass/gui/static/qt_designer/*.ui
+```
+
+```sh
+# generate python code from `main.ui`
+pyuic5 lightning_pass/gui/static/qt_designer/main.ui -o lightning_pass/gui/static/qt_designer/output/main.py
+````
+
+### Qt Style Sheets
+
+Both light and dark mode stylesheets are located in the [static](https://github.com/kucera-lukas/lightning-pass/tree/feat/project-cleanup/lightning_pass/gui/static) folder
+
 ## Features
 
 *   Random password generation based on mouse movement

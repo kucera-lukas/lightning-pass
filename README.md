@@ -46,6 +46,12 @@ mysql -u user -e "CREATE DATABASE lightning_pass";
 python ligtning_pass
 ```
 
+### Tests
+
+```sh
+pytest
+```
+
 ### Qt Creator
 
 ```sh

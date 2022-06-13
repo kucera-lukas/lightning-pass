@@ -59,7 +59,7 @@ pyuic5 lightning_pass/gui/static/qt_designer/main.ui -o lightning_pass/gui/stati
 
 ### Qt Style Sheets
 
-Both light and dark mode stylesheets are located in the [static](https://github.com/kucera-lukas/lightning-pass/tree/feat/project-cleanup/lightning_pass/gui/static) folder
+Both light and dark mode stylesheets are located in the [static](https://github.com/kucera-lukas/lightning-pass/tree/master/lightning_pass/gui/static) folder
 
 ## Features
 

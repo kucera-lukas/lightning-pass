@@ -84,8 +84,7 @@ Both light and dark mode stylesheets are located in the [static](https://github.
 * [This is how the vault looks like!](https://github.com/kucera-lukas/lightning-pass/blob/master/docs/vault.gif)
 
 ## OS Support
-
-* Tested on Linux and Windows 10
+Tested on Linux and Windows 10
 
 ## Contributing
 

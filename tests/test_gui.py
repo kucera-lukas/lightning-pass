@@ -1,4 +1,5 @@
 """Test module for the gui package."""
+
 from __future__ import annotations
 
 import pytest

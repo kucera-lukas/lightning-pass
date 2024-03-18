@@ -1,4 +1,5 @@
 """Module containing the main GUI classes."""
+
 from __future__ import annotations
 
 import logging

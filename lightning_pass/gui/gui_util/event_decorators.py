@@ -1,4 +1,5 @@
 """Module with decorators to decorate events with extra functionality."""
+
 from __future__ import annotations
 
 import functools

@@ -3,6 +3,7 @@
 Used for connecting each button on the GUI to various events or lambdas.
 
 """
+
 import webbrowser
 from typing import Callable, NamedTuple, Optional, Union
 

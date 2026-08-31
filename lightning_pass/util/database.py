@@ -1,4 +1,5 @@
 """Module containing various utils connected to database management."""
+
 import contextlib
 from typing import TYPE_CHECKING, Iterator
 

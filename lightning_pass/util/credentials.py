@@ -1,4 +1,5 @@
 """Module containing various functions connected to credentials used throughout the whole project."""
+
 import secrets
 import urllib.parse as urlparse
 from datetime import datetime

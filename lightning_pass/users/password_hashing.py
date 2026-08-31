@@ -1,4 +1,5 @@
 """Module containing everything connected to password hashing for secure storage in database."""
+
 import base64
 from typing import NamedTuple, Union
 

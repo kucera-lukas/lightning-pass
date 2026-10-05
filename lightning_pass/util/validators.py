@@ -1,4 +1,5 @@
 """Validate account credentials and user input."""
+
 from __future__ import annotations
 
 import functools

@@ -1,4 +1,5 @@
 """Module containing the Account class and other functions related to accounts."""
+
 from __future__ import annotations
 
 import functools

@@ -1,4 +1,5 @@
 """Module with project constants and DDLs for database."""
+
 from __future__ import annotations
 
 import os

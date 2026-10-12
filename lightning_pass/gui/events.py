@@ -1,4 +1,5 @@
 """Module containing the Events class used for event handling."""
+
 from __future__ import annotations
 
 import contextlib

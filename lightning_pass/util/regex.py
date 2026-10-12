@@ -1,4 +1,5 @@
 """Module with regular expressions."""
+
 import re
 
 USERNAME = re.compile(r"^\w{5,}$")  # word character at least 5 times

@@ -1,4 +1,5 @@
 """Module containing the MessageBoxes and InputDialogs classes."""
+
 import contextlib
 import functools
 from typing import Callable, NamedTuple, Optional, Union
@@ -529,7 +530,6 @@ contain at least one special character."""
 
 
 class InputDialogs(QWidget):
-
     """Show input dialog to the user."""
 
     __slots__ = "events", "main_win", "title"

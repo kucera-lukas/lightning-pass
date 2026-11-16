@@ -1,4 +1,5 @@
 """Run the application."""
+
 import sys
 from pathlib import Path
 

@@ -1,4 +1,5 @@
 """Module containing classes used for operations with mouse randomness generation."""
+
 import random
 import string
 from typing import Generator, NamedTuple, Optional
